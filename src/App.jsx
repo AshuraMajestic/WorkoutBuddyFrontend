@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -18,12 +17,11 @@ function App() {
       <BrowserRouter>
         <AppContent />
       </BrowserRouter>
-    </div >
+    </div>
   );
 }
 
 function AppContent() {
-
   return (
     <div className='hello'>
       <Navbar />
@@ -35,9 +33,7 @@ function AppContent() {
         </Route>
         <Route path='/contact' element={<Contact />} />
         <Route path='/login' element={<Login />} />
-        <Route path='/error' element={<Error />} />
         <Route path='*' element={<Error />} />
-
       </Routes>
       <Footer />
     </div>

@@ -29,7 +29,7 @@ export default function Nutreints() {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': token // Use the token directly
+                    'authorization': token // Use the token directly
                 },
                 body: JSON.stringify(formData)
             });
