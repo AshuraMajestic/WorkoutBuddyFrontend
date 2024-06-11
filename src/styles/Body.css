@@ -1,0 +1,23 @@
+.body-style .body-left button {
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 4rem;
+}
+.body-style .body-left {
+  line-height: normal;
+}
+.body-style .body-left select {
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+}
+.body-style .body-plan {
+  width: 100%;
+}
+.body-style .body-plan pre {
+  width: 100%;
+  color: wheat;
+  font-size: 1.6rem;
+  text-align: left;
+}

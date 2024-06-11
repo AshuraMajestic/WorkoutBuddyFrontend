@@ -1,0 +1,29 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meal-style .meal-plan {
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+.meal-style .meal-plan tr {
+  background-color: white;
+}
+.meal-style .meal-left form {
+  line-height: normal;
+}
+.meal-style .meal-left form input {
+  font-size: 1.6rem;
+}
+.meal-style .meal-left form .gender .genderLabel {
+  font-size: 1.7rem;
+}
+.meal-style .meal-left form button {
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 4rem;
+}

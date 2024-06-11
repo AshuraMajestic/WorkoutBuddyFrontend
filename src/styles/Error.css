@@ -1,0 +1,27 @@
+.error-style .container {
+  width: 100vw;
+  margin-top: 10rem;
+  margin-bottom: 20rem;
+  height: 80vh;
+}
+
+.error-style p {
+  font-size: 3rem;
+  color: white;
+}
+.error-style i {
+  color: gold;
+  font-size: 10rem;
+}
+.error-style h1 {
+  color: white;
+  font-size: 4.8rem;
+  text-shadow: 10px;
+}
+.error-style button {
+  border-radius: 1rem;
+  padding: 10px 40px;
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 2rem;
+}
